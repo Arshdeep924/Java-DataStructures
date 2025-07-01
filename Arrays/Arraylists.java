@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 class Arraylists {
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
 
-        // add elements
+        // add elements and print ArrayList
         list.add(0);
         list.add(2);
         list.add(3);
@@ -32,7 +31,7 @@ class Arraylists {
         int size = list.size();
         System.out.println(size);
 
-        // loops
+        // loops to print arraylist
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i));
         }
