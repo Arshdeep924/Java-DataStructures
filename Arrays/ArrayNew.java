@@ -1,38 +1,47 @@
+// // THIS ENTIRE PROGRAM PAGE CONSISTS OF 2 PARTS - 1D ARRAY AND 2D ARRAYS AND RELATED PROBLEMS ON THEM
+
 import java.util.Scanner;
 
 class ArrayNew {
     Scanner sc = new Scanner(System.in);
-    int i;
+    int i;              // THIS i IS TAKEN AS A GLOABL VAR FOR ALL THE is IN FOR LOOPS IN THE ENTIRE PROGRAM
     int ele;
     double sum = 0.0;
     double avg;
     int arr[];
+
+    // METHOD TO INPUT ELEMENTS IN THE ARRAY 'arr'
     void printArr() 
     {
         System.out.println("Enter no. of elements you need:");
-        ele=sc.nextInt();
-        arr=new int[ele];
-        for(i = 0; i < arr.length; i++) {
+        ele = sc.nextInt();
+        arr = new int[ele];
+        for(i = 0; i < arr.length; i++) 
+        {
             System.out.println("Enter Array elements: ");
             arr[i] = sc.nextInt();
         }
     } 
-    // void showArr() {
-    //     for(i = 0; i < arr.length; i++) {
-    //         System.out.print(arr[i] + " ");
-    //         sum += arr[i];
-    //     }
-    //     avg =(sum/arr.length);
-    //     System.out.println("\nThe sum of elements of the array is: " + sum);
-    //     System.out.println("The average of elements of the array is: " + avg);
-    // }
-    // public static void main(String[] args) {
-    //     ArrayNew ob = new ArrayNew();
-    //     ob.printArr();
-    //     ob.showArr();
-    // }
 
-    // // WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT ONLY THOSE DIVISIBLE BY 9 AND 5 
+    // METHOD TO SHOW ELEMENTS OF THE ARRAY 
+    void showArr() {
+        for(i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+            sum += arr[i];
+        }
+        avg =(sum/arr.length);
+        System.out.println("\nThe sum of elements of the array is: " + sum);
+        System.out.println("The average of elements of the array is: " + avg);
+    }
+    public static void main(String[] args) {
+        ArrayNew ob = new ArrayNew();
+        ob.printArr();
+        ob.showArr();
+    }
+
+    // // PRACTISE QUESTIONS FOR BETTER UNDERSTANDING
+
+    // // Q1. WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT ONLY THOSE DIVISIBLE BY 9 AND 5
     // void printArr() {
     //     System.out.println("Enter number of elements needed: ");
     //     ele =  sc.nextInt();
@@ -56,7 +65,7 @@ class ArrayNew {
     //     ob.showArr();
     // }
 
-    // WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT ONLY THOSE BEING PALINDROMES
+    // // Q2. WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT ONLY THOSE BEING PALINDROMES
     // void printArr() {
     //     System.out.println("Enter number of elements needed: ");
     //     ele =  sc.nextInt();
@@ -87,7 +96,7 @@ class ArrayNew {
     //     ob.showArr();
     // }
 
-    // // WAP TO INPUT ELEMENTS AND PRINT THEM IN REV ORDER
+    // // Q3. WAP TO INPUT ELEMENTS AND PRINT THEM IN REV ORDER
     // void printArr() {
     //     System.out.println("Enter number of elements needed: ");
     //     ele =  sc.nextInt();
@@ -117,8 +126,8 @@ class ArrayNew {
     //     ob.showArr();
     // }
 
-    // WAP TO INPUT ELEMENTS AND A SINGLE ELEMENT AND CHECK IF THAT SINGLE ELEMENT IS A PART OF THE ARRAY
-    // int x,c=0;
+    // // Q4. WAP TO INPUT ELEMENTS AND CHECK IF A SINGLE ELEMENT(INPUT AGAIN) IS A PART OF THE ARRAY
+    // int x,counter=0;
     // void printArr() {
     //     System.out.println("Enter number of elements needed: ");
     //     ele =  sc.nextInt();
@@ -134,12 +143,11 @@ class ArrayNew {
     //     for(i = 0; i < arr.length; i++) {
     //         if(arr[i] == x) {
     //             System.out.println("The element " + x + " exists at " + i);
-    //             c=1;
-    //          //   break;
+    //             counter=1;
+    //             break;
     //         }
-    //         }
-    //         if(c==0)
-    //         {
+    //     }
+    //         if(counter==0){
     //             System.out.println("The element doesnt exist");
     //         }
     // }
@@ -150,7 +158,7 @@ class ArrayNew {
     // }
     
 
-    // // WAP TO INPUT ELEMENSTS IN AN ARRAY, A NO. AND A POSITION AND ADD THE NUMBER AT THE SPECIFIED POSITION
+    // // Q5. WAP TO INPUT ELEMENTS IN AN ARRAY, A NO. AND A POSITION AND ADD THAT NUMBER AT THE SPECIFIED POSITION
     // int f,g;
     // void printArr() {
     //     System.out.println("Enter number of elements needed: ");
@@ -189,8 +197,7 @@ class ArrayNew {
     //     //ob.showArr();
     // }
 
-
-    // // WAP TO INPUT ELEMENTS IN AN ARRAY AND COPY THE EVEN AND ODD ELEMENTS IN DIFF ARRAYS AND PRINT THEM
+    // // Q6. WAP TO INPUT ELEMENTS IN AN ARRAY AND COPY THE EVEN AND ODD ELEMENTS IN DIFF ARRAYS AND PRINT THEM
     // int evenArr[];
     // int oddArr[];
     // void showArr() {
@@ -232,7 +239,7 @@ class ArrayNew {
     // }
 
 
-    // // WAP TO INPUT ELEMENTS AND PRINT ONLY THOSE THAT CONTAIN ZERO
+    // // Q7. WAP TO INPUT ELEMENTS AND PRINT ONLY THOSE THAT CONTAIN ZERO
     // void showArr() {
     //     System.out.println("Enter number of elements needed: ");
     //     ele = sc.nextInt();
@@ -263,7 +270,7 @@ class ArrayNew {
     // }
 
 
-    // // WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT ONLY ALTERNATE ELEMENTS
+    // // Q8. WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT ONLY ALTERNATE ELEMENTS
     // void showArr() {
     //     System.out.println("Enter the no. of elements needed:");
     //     ele = sc.nextInt();
@@ -286,7 +293,7 @@ class ArrayNew {
     // }
 
 
-    // // WAP TO INPUT ELEMEMTS AND A NUMBER, DELETE THE NUMBER FROM THE ARRAY IF EXISTS
+    // // Q9. WAP TO INPUT ELEMEMTS AND A NUMBER, DELETE THE NUMBER FROM THE ARRAY IF EXISTS
     // int f,g=-1;
     // void printArr() {
     //     System.out.println("Enter number of elements needed: ");
@@ -336,12 +343,13 @@ class ArrayNew {
     // }
     // -----------------------------------------------------------------------------------------------------------------
 
-    // // 2D ARRAYS
+    // // 2D ARRAYS---------------------------------------------------------------------------------------------
     int j;
     int r;
     int c;
     int ar[][];
-    // // WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THEM
+
+    // // Q1. WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THEM
     // void showArr() {
     //     System.out.println("Enter number of rows");
     //     r = sc.nextInt();
@@ -371,7 +379,7 @@ class ArrayNew {
     // }
 
 
-    // // WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THEM IN REV ORDER
+    // // Q2. WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THEM IN REV ORDER
     // void showArr() {
     //     System.out.println("Enter the number of rows: ");
     //     r = sc.nextInt();
@@ -401,7 +409,7 @@ class ArrayNew {
     // }
 
     
-    // // WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THE DIAGONAL ELEMENTS
+    // // Q3. WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THE DIAGONAL ELEMENTS
     // void showArr() {
     //     System.out.println("Enter the number of rows: ");
     //     r = sc.nextInt();
@@ -432,7 +440,7 @@ class ArrayNew {
     //     ob.printArr();
     // }
 
-    // // WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT REV DIAGNOLS
+    // // Q4. WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT REV DIAGNOLS
     // void showArr() {
     //     System.out.println("Enter the number of rows: ");
     //     r = sc.nextInt();
@@ -462,7 +470,7 @@ class ArrayNew {
     // }
     
 
-    // // WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THE TRANSPOSE OF THE MATRIX
+    // // Q5. WAP TO INPUT ELEMENTS IN A 2D ARRAY AND PRINT THE TRANSPOSE OF THE MATRIX
     // void showArr() {
     //     System.out.println("Enter the number of rows: ");
     //     r = sc.nextInt();
@@ -497,7 +505,7 @@ class ArrayNew {
     // }
 
 
-    // // WAP TO INPUT ELEMENTS IN A MATRIX AND INVERTED RIGHT TRIANGLE PATTERN
+    // // Q6. WAP TO INPUT ELEMENTS IN A MATRIX AND INVERTED RIGHT TRIANGLE PATTERN
     // void showArr() {
     //     System.out.println("Enter the number of rows: ");
     //     r = sc.nextInt();
@@ -528,7 +536,7 @@ class ArrayNew {
     // }
 
 
-    // // WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT RIGHT TRIANGLE PATTERN
+    // // Q7. WAP TO INPUT ELEMENTS IN AN ARRAY AND PRINT RIGHT TRIANGLE PATTERN
     // void showArr() {
     //     System.out.println("Enter the number of rows: ");
     //     r = sc.nextInt();
@@ -556,9 +564,4 @@ class ArrayNew {
     //     ob.showArr();
     //     ob.printArr();
     // }
-    
-
-    
-
-
 }
