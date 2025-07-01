@@ -1,0 +1,339 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "LinkedList",
+      "request": "launch",
+      "mainClass": "LinkedList",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "maps",
+      "request": "launch",
+      "mainClass": "maps",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "ParamConstructor",
+      "request": "launch",
+      "mainClass": "ParamConstructor",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "MaxxHeap",
+      "request": "launch",
+      "mainClass": "MaxxHeap",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "linkedList",
+      "request": "launch",
+      "mainClass": "linkedList",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "heaps",
+      "request": "launch",
+      "mainClass": "heaps",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "MaxHeap",
+      "request": "launch",
+      "mainClass": "MaxHeap",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Laptop",
+      "request": "launch",
+      "mainClass": "Laptop",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "assign",
+      "request": "launch",
+      "mainClass": "assign",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "adata",
+      "request": "launch",
+      "mainClass": "adata",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "use",
+      "request": "launch",
+      "mainClass": "use",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "defaultcons",
+      "request": "launch",
+      "mainClass": "defaultcons",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "ar",
+      "request": "launch",
+      "mainClass": "ar",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "power",
+      "request": "launch",
+      "mainClass": "power",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Honda",
+      "request": "launch",
+      "mainClass": "Honda",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "loan2",
+      "request": "launch",
+      "mainClass": "loan2",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Loan",
+      "request": "launch",
+      "mainClass": "Loan",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Employee",
+      "request": "launch",
+      "mainClass": "Employee",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Calculate",
+      "request": "launch",
+      "mainClass": "Calculate",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "stude",
+      "request": "launch",
+      "mainClass": "stude",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Graphs",
+      "request": "launch",
+      "mainClass": "Graphs",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "MergeSort",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "SelectionSort",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "BST",
+      "request": "launch",
+      "mainClass": "BST",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearchTree",
+      "request": "launch",
+      "mainClass": "BinarySearchTree",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Tree",
+      "request": "launch",
+      "mainClass": "Tree",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "studentData",
+      "request": "launch",
+      "mainClass": "studentData",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "finals",
+      "request": "launch",
+      "mainClass": "finals",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "superKey",
+      "request": "launch",
+      "mainClass": "superKey",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "pro",
+      "request": "launch",
+      "mainClass": "pro",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "protect",
+      "request": "launch",
+      "mainClass": "protect",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "knapsack",
+      "request": "launch",
+      "mainClass": "knapsack",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "recursion2",
+      "request": "launch",
+      "mainClass": "recursion2",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "basics",
+      "request": "launch",
+      "mainClass": "basics",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "assignments",
+      "request": "launch",
+      "mainClass": "assignments",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "recursion",
+      "request": "launch",
+      "mainClass": "recursion",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Sorting",
+      "request": "launch",
+      "mainClass": "Sorting",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Bits",
+      "request": "launch",
+      "mainClass": "Bits",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "strings",
+      "request": "launch",
+      "mainClass": "strings",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "rrays",
+      "request": "launch",
+      "mainClass": "rrays",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "arrays",
+      "request": "launch",
+      "mainClass": "arrays",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "functions",
+      "request": "launch",
+      "mainClass": "functions",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Functions",
+      "request": "launch",
+      "mainClass": "Functions",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "patternsclass",
+      "request": "launch",
+      "mainClass": "patternsclass",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
+      "name": "Firstclass",
+      "request": "launch",
+      "mainClass": "Firstclass",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Arshdeep/OneDrive/Desktop/C file Structure",
+      "program": "c:/Users/Arshdeep/OneDrive/Desktop/C file Structure/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
