@@ -7,16 +7,16 @@ class ArrayNew {
     double sum = 0.0;
     double avg;
     int arr[];
-    // void printArr() 
-    // {
-    //     System.out.println("Enter no. of elements you need:");
-    //     ele=sc.nextInt();
-    //     arr=new int[ele];
-    //     for(i = 0; i < arr.length; i++) {
-    //         System.out.println("Enter Array elements: ");
-    //         arr[i] = sc.nextInt();
-    //     }
-    // } 
+    void printArr() 
+    {
+        System.out.println("Enter no. of elements you need:");
+        ele=sc.nextInt();
+        arr=new int[ele];
+        for(i = 0; i < arr.length; i++) {
+            System.out.println("Enter Array elements: ");
+            arr[i] = sc.nextInt();
+        }
+    } 
     // void showArr() {
     //     for(i = 0; i < arr.length; i++) {
     //         System.out.print(arr[i] + " ");

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Arraylists",
+      "request": "launch",
+      "mainClass": "Arraylists",
+      "projectName": "C file Structure_76cf7a6c"
+    },
+    {
+      "type": "java",
       "name": "LinkedList",
       "request": "launch",
       "mainClass": "LinkedList",
